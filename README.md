@@ -15,7 +15,6 @@
 **Ali AlEnezi**  
 🔒 Cybersecurity Specialist | Kuwait  
 🎓 SANS/GIAC Certified Security Professional  
-🏆 Aspiring Microsoft Security MVP  
 
 - 📧 Email: [site@hotmail.com](mailto:site@hotmail.com)
 - 💼 LinkedIn: [linkedin.com/in/alenizi](https://www.linkedin.com/in/alenizi/)
