@@ -41,7 +41,7 @@ Connect-MgGraph -Scopes "SecurityEvents.Read.All", "SecurityActions.Read.All"
     This script reads KQL queries from markdown files and creates custom detection rules
     in Microsoft 365 Defender. Includes error handling and logging.
 .AUTHOR
-    Ali AlEnezi - Cybersecurity Specialist, NBK Kuwait
+    Ali AlEnezi
 .VERSION
     2.0
 .EXAMPLE
@@ -192,7 +192,7 @@ catch {
 .DESCRIPTION
     Validates KQL syntax, tests query performance, and generates reports
 .AUTHOR
-    Ali AlEnezi - Cybersecurity Specialist, NBK Kuwait
+    Ali AlEnezi
 .EXAMPLE
     .\Test-HuntingQueries.ps1 -QueryFile ".\Banking-Specific-Queries.md"
 #>
@@ -341,7 +341,7 @@ catch {
 .DESCRIPTION
     Provides functions to list, update, disable, and delete hunting queries and detection rules
 .AUTHOR
-    Ali AlEnezi - Cybersecurity Specialist, NBK Kuwait
+    Ali AlEnezi
 #>
 
 # List all custom detection rules
