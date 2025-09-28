@@ -3,7 +3,7 @@
 ## Overview
 Advanced hunting queries for Microsoft 365 cloud applications including SharePoint, OneDrive, Teams, and Exchange Online. These queries focus on data exfiltration, unauthorized access, and cloud-specific attack vectors.
 
-**Author**: Ali AlEnezi - Cybersecurity Specialist  
+**Author**: Ali AlEnezi
 **Last Updated**: September 2025  
 **MITRE ATT&CK Coverage**: T1020, T1041, T1567, T1537, T1530, T1114  
 
