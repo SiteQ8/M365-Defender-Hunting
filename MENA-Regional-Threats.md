@@ -3,7 +3,7 @@
 ## Overview
 Advanced hunting queries tailored for Middle East & North Africa (MENA) region-specific threats. These queries incorporate regional threat intelligence, geopolitical threat actors, and localized attack patterns observed in the MENA cybersecurity landscape.
 
-**Author**: Ali AlEnezi - Cybersecurity Specialist, NBK Kuwait  
+**Author**: Ali AlEnezi
 **Region Focus**: Kuwait, UAE, Saudi Arabia, Qatar, Oman, Bahrain, Egypt, Jordan  
 **Last Updated**: September 2025  
 **Threat Intelligence Sources**: Regional CERTs, MISP, Commercial TI feeds  
