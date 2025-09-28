@@ -1,6 +1,6 @@
 # Contributing to M365-Defender-Hunting-MENA
 
-Thank you for your interest in contributing to this repository! This guide will help you understand how to contribute effectively to our collection of Microsoft 365 Defender hunting queries for the MENA region.
+Thank you for your interest in contributing to this repository! This guide will help you understand how to contribute effectively to our collection of Microsoft 365 Defender hunting queries.
 
 ## 📋 Contribution Guidelines
 
@@ -63,7 +63,7 @@ Thank you for your interest in contributing to this repository! This guide will 
 
 ```kql
 // Banking Trojan Process Injection Detection
-// Author: Ali AlEnezi - Cybersecurity Specialist, NBK
+// Author: Ali AlEnezi
 // MITRE ATT&CK: T1055 (Process Injection), T1082 (System Information Discovery)
 // Last Updated: September 2025
 // Use Case: Detect banking trojans injecting into legitimate banking processes
@@ -161,7 +161,7 @@ DeviceProcessEvents
 5. **Commit Your Changes**
    ```bash
    git add .
-   git commit -m "Add banking trojan detection queries for MENA region"
+   git commit -m "Add banking trojan detection queries"
    ```
 
 6. **Push to Your Fork**
@@ -240,7 +240,8 @@ DeviceProcessEvents
 ### Regional Threat Intelligence Sources
 
 - **GCC CERT** - Gulf Cooperation Council Computer Emergency Response Team
-- **CERT-Kuwait** - National CERT for Kuwait
+- **NCSC-Kuwait** - Kuwait National Cyber Security Center
+- **CBK-Kuwait** - Central Bank of Kuwait
 - **NCSC-UAE** - UAE National Cyber Security Council
 - **NCA-KSA** - Saudi National Cybersecurity Authority
 - **Q-CERT** - Qatar Computer Emergency Response Team
