@@ -1,4 +1,4 @@
-# M365-Defender-Hunting 🛡️
+# M365-Defender-Hunting
 
 ## Microsoft 365 Defender Advanced Hunting Queries Repository
 
