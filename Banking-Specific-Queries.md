@@ -3,7 +3,7 @@
 ## Overview
 Advanced hunting queries specifically designed for banking and financial services environments. These queries focus on detecting threats commonly targeting financial institutions including ATM malware, payment fraud, and core banking system attacks.
 
-**Author**: Ali AlEnezi - Cybersecurity Specialist, NBK  
+**Author**: Ali AlEnezi
 **Last Updated**: September 2025  
 **MITRE ATT&CK Coverage**: Multiple tactics and techniques  
 
