@@ -3,7 +3,7 @@
 ## Overview
 Comprehensive collection of Microsoft 365 Defender advanced hunting queries for email threat detection. These queries help identify sophisticated email-based attacks including phishing, business email compromise, and malware distribution.
 
-**Author**: Ali AlEnezi - Cybersecurity Specialist  
+**Author**: Ali AlEnezi
 **Last Updated**: September 2025  
 **MITRE ATT&CK Coverage**: T1566.001, T1566.002, T1566.003, T1114, T1020  
 
