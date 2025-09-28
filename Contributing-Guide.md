@@ -1,4 +1,4 @@
-# Contributing to M365-Defender-Hunting-MENA
+# Contributing to M365-Defender-Hunting
 
 Thank you for your interest in contributing to this repository! This guide will help you understand how to contribute effectively to our collection of Microsoft 365 Defender hunting queries.
 
