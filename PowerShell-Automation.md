@@ -3,7 +3,7 @@
 ## Overview
 PowerShell automation scripts for managing Microsoft 365 Defender hunting queries and custom detection rules. These scripts help streamline deployment, testing, and maintenance of hunting queries in enterprise environments.
 
-**Author**: Ali AlEnezi - Cybersecurity Specialist, NBK  
+**Author**: Ali AlEnezi 
 **Last Updated**: September 2025  
 **Prerequisites**: Microsoft.Graph.Security PowerShell module, appropriate API permissions  
 
