@@ -1,9 +1,9 @@
-# M365-Defender-Hunting-MENA 🛡️
+# M365-Defender-Hunting
 
-## Microsoft 365 Defender Advanced Hunting Queries for MENA Region
+## Microsoft 365 Defender Advanced Hunting Queries
 
-[![GitHub stars](https://img.shields.io/github/stars/username/M365-Defender-Hunting-MENA.svg)](https://github.com/username/M365-Defender-Hunting-MENA/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/username/M365-Defender-Hunting-MENA.svg)](https://github.com/username/M365-Defender-Hunting-MENA/network)
+[![GitHub stars](https://img.shields.io/github/stars/SiteQ8/M365-Defender-Hunting.svg)](https://github.com/username/M365-Defender-Hunting/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/SiteQ8/M365-Defender-Hunting-MENA.svg)](https://github.com/username/M365-Defender-Hunting/network)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Collection of Microsoft 365 Defender Advanced Hunting queries with focus on financial services and banking security.**
