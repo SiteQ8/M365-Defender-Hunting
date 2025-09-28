@@ -361,7 +361,7 @@ Special thanks to the global cybersecurity community, Microsoft security teams, 
 
 ---
 
-**⚡ Built with ❤️ for the Global Cybersecurity Community**
+**⚡ Built with ❤️ by 3li.info**
 
 *Securing organizations worldwide through collaborative threat hunting and knowledge sharing*
 
