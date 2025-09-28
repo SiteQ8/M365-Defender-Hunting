@@ -3,7 +3,7 @@
 ## Overview
 Advanced hunting queries focused on identity security, authentication anomalies, and access control threats in Microsoft 365 environments. These queries help detect account compromise, privilege escalation, and suspicious authentication patterns.
 
-**Author**: Ali AlEnezi - Cybersecurity Specialist  
+**Author**: Ali AlEnezi  
 **Last Updated**: September 2025  
 **MITRE ATT&CK Coverage**: T1078, T1110, T1556, T1087, T1069, T1484  
 
