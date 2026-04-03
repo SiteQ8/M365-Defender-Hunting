@@ -1,0 +1,28 @@
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| where DeviceName has_any ("ATM", "NCR", "DIEBOLD", "WINCOR")
+| where ProcessCommandLine has_any (
+    "CSCSERVICE.EXE",    // Common ATM jackpot malware
+    "DISPENSR",          // Cash dispenser interface
+    "XFS",               // eXtensions for Financial Services
+    "MSXFS",             // Microsoft XFS
+    "AGILIS",            // ATM software component
+    "APTRA",             // NCR ATM software
+    "PROCASH",           // ATM cash management
+    "*.xfs"              // XFS configuration files
+) or InitiatingProcessCommandLine has_any (
+    "svchost.exe -k CSCSERVICE",
+    "rundll32.exe *xfs*",
+    "regsvr32.exe *xfs*"
+)
+| where not (ProcessCommandLine has_any ("legitATMService.exe", "authorizedATMUpdate.exe"))
+| project 
+    Timestamp,
+    DeviceName, 
+    AccountName,
+    ProcessCommandLine,
+    InitiatingProcessCommandLine,
+    ProcessId,
+    ParentProcessName,
+    MD5 = tostring(MD5)
+| order by Timestamp desc
