@@ -1,0 +1,26 @@
+// Rule Name: Anomalous SnippingTool.exe Network Activity
+// Author: Ali AlEnezi
+// Date: 2026-04-25
+// Description: Detects unusual network connections initiated by the Windows Snipping Tool. While SnippingTool may occasionally connect for telemetry or updates, active outbound connections to non-Microsoft endpoints are highly suspicious and could indicate process injection or masquerading.
+// MITRE ATT&CK: T1036.005 - Masquerading: Match Legitimate Name or Location
+
+DeviceNetworkEvents
+// Filter for network connections originating from the Snipping Tool process
+| where InitiatingProcessFileName =~ "snippingtool.exe"
+// Exclude private IP routing to reduce false positives from internal traffic
+| where not(ipv4_is_private(RemoteIP))
+// Tune here: Exclude known Microsoft telemetry or update domains to minimize false positives
+| where not(RemoteUrl contains "microsoft.com" or RemoteUrl contains "windows.com" or RemoteUrl contains "msftconnecttest.com")
+// Aggregate findings to provide a summary of the anomalous connections
+| summarize 
+    FirstSeen = min(TimeGenerated), 
+    LastSeen = max(TimeGenerated), 
+    ConnectionCount = count() 
+    by 
+    DeviceName, 
+    InitiatingProcessAccountName, 
+    InitiatingProcessFileName,
+    InitiatingProcessCommandLine, 
+    RemoteIP, 
+    RemotePort, 
+    RemoteUrl
